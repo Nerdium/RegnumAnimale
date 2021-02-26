@@ -1,5 +1,0 @@
-test_decisions = {
-	allowed = {
-		always = yes
-	}
-}

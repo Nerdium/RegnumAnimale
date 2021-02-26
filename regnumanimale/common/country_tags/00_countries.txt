@@ -1,6 +1,6 @@
-PLD = "countries/Pridelands.txt"
+PRL = "countries/Pridelands.txt"
 WLD = "countries/Wildlands.txt"
-WSD = "countries/Wastelands.txt"
+WSL = "countries/Wastelands.txt"
 INS = "countries/Insects.txt"
 LLA = "countries/Llamas.txt"
 EMU = "countries/EmuEmpire.txt"
@@ -47,5 +47,3 @@ GTC = "countries/GreenTurtleCouncil.txt"
 KMD = "countries/KomodoDragons.txt"
 PEN = "countries/Penguins.txt"
 CMW = "countries/Commonwealth.txt"
-
-
