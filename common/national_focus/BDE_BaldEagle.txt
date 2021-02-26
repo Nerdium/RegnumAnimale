@@ -1,0 +1,24 @@
+focus_tree = {
+	id = BaldEagle
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BDE
+		}
+	}
+	#Focus for The Land of the Free
+	focus = {
+		id = BDE_thelandofthefree
+		icon = GFX_goal_continuous_boost_freedom
+		x = 11
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

@@ -1,0 +1,5 @@
+PLD_decisions = {
+	allowed = {
+		tag = PLD
+	}
+}

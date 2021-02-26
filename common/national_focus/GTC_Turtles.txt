@@ -1,0 +1,54 @@
+focus_tree = {
+	id = Turtles
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GTC
+		}
+	}
+	#Focus for Quicker the Better!
+	focus = {
+		id = GTC_quickerthebetter
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 13
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GTC_handlingtheempire }
+		mutually_exclusive = { focus = GTC_slowandsteady }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Handling the Empire
+	focus = {
+		id = GTC_handlingtheempire
+		icon = GFX_focus_mex_redeem_aztlan
+		x = 11
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Slow and Steady...
+	focus = {
+		id = GTC_slowandsteady
+		icon = GFX_goal_generic_position_armies
+		x = 9
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GTC_handlingtheempire }
+		mutually_exclusive = { focus = GTC_quickerthebetter }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

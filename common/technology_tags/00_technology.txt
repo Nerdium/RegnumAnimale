@@ -1,0 +1,83 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	light_armor
+}
+
+technology_folders = {
+	
+	generic_folder = {
+		available = {
+			NOT = { original_tag = PLD }
+            NOT = { original_tag = RNE }
+			NOT = { original_tag = GRT }
+			NOT = { original_tag = AEL }
+			NOT = { original_tag = HYH }
+			NOT = { original_tag = GFK }
+			NOT = { original_tag = ZBK }
+			NOT = { original_tag = ABL }
+			NOT = { original_tag = CMR }
+			NOT = { original_tag = EPC }
+			NOT = { original_tag = SPB }
+		}
+	}	
+
+	lion_folder = {
+		available = {
+			original_tag = PLD
+		}
+	}
+	rhino_folder = {
+		available = {
+			original_tag = RNE
+		}
+	}
+	primate_folder = {
+		available = {
+			original_tag = GRT
+		}
+	}
+	elephant_folder = {
+		available = {
+			original_tag = AEL
+		}
+	}
+	hyena_folder = {
+		available = {
+			original_tag = HYH
+		}
+	}
+	giraffe_folder = {
+		available = {
+			original_tag = GFK
+		}
+	}
+	zebra_folder = {
+		available = {
+			original_tag = ZBK
+		}
+	}
+	buffalo_folder = {
+		available = {
+			original_tag = ABL
+		}
+	}
+	camel_folder = {
+		available = {
+			original_tag = CMR
+		}
+	}
+	cat_folder = {
+		available = {
+			original_tag = EPC
+		}
+	}
+	springbok_folder = {
+		available = {
+			original_tag = SPB
+		}
+	}
+}
+
+ 

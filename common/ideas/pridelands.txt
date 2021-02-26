@@ -1,0 +1,188 @@
+ideas = {
+	country = {
+		PLD_peace_and_prosperity = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			rule = {
+				can_create_factions = yes
+			}			
+		}
+	}
+	country = {
+		PLD_ironfistedgovernment = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+			}
+		}
+	}
+	country = {
+		PLD_corrupted_military = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+			}
+		}
+	}
+	country = {
+		PLD_secret_police = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+			}
+		}
+	}
+	country = {
+		PLD_succession_crisis_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.50
+				industrial_capacity_factory = -0.50
+				industrial_capacity_dockyard = -0.50
+				stability_weekly = -0.05
+				war_support_factor = -0.50
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+			}
+		}
+	}
+	country = {
+		PLD_lioness_angry = {
+		
+			picture = raj_marginalized_muslim_community_angry
+
+			allowed = {
+				original_tag = PLD
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.05
+				conscription_factor = -0.2
+			}
+		}
+	}
+	country = {
+		PLD_lioness_angry_2 = {
+		
+			picture = raj_marginalized_muslim_community_angry
+
+			allowed = {
+				original_tag = PLD
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.1
+				conscription_factor = -0.4
+			}
+		}
+	}
+	country = {
+		PLD_hyena_junta = {
+		
+			picture = great_depression
+
+			allowed = {
+				original_tag = PLD
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+	country = {
+		PLD_the_hunt = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = great_depression
+						
+			modifier = {
+				conscription_factor = -0.25
+				#conscription = -0.006
+			}
+		}
+	}
+}

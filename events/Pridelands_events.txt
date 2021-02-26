@@ -1,0 +1,113 @@
+add_namespace = pridelands
+ 
+#########################################The Hunt#########################################
+country_event = {
+	id = pridelands.1
+	title = pridelands.1.t
+	desc = pridelands.1.d
+	picture = GFX_report_event_physics_lab_01
+	is_triggered_only = yes
+	
+	option = {
+		name = pridelands.1.a
+		ai_chance = { factor = 1 }
+		random_list = {
+			20 = { country_event = { id = pridelands.2 days = 9 } } #success
+			75 = { country_event = { id = pridelands.3 days = 9 } } #failure
+			5 = { country_event = { id = pridelands.4 days = 9 } } #civil war
+			}
+		}
+	}
+###Hunting Results###
+
+country_event = {
+	id = pridelands.2
+	title = pridelands.2.t
+	desc = pridelands.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = pridelands.2.a
+		ai_chance = { factor = 1 }
+		add_political_power = 150
+		PLD = {
+			set_country_flag = rival_vanquished
+			}
+		}
+	}
+
+country_event = {
+	id = pridelands.3
+	title = pridelands.3.t
+	desc = pridelands.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = pridelands.3.a
+		ai_chance = { factor = 1 }
+		add_political_power = -10
+		}
+	}
+country_event = {
+	id = pridelands.4
+	title = pridelands.4.t
+	desc = pridelands.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = pridelands.4.a
+		ai_chance = { factor = 1 }
+		add_political_power = -150
+		PLD = { country_event = { id = pridelands.5 days = 1 } }
+		}
+	}
+
+##Civil War##
+
+country_event = {
+ id = pridelands.5
+ title = pridelands.5.t
+ desc = pridelands.5.d
+ picture = GFX_news_event_003
+ fire_only_once = yes
+ major = yes
+	trigger = {
+ 	tag= PLD
+	date > 1936.8.2
+	NOT = { has_war 
+		has_country_flag = succession_solved }
+	}
+	mean_time_to_happen = { days = 255} #happens within a year of finishing side of tree
+	option = {
+		name = pridelands.5.a
+		ai_chance = { factor = 1}
+		set_politics= {
+ ruling_party = fascism 
+elections_allowed = no 
+}
+start_civil_war= {
+ ideology = democratic 
+size = 0.5 
+}
+set_country_flag= Civil_War
+	}
+	option = {
+		name = pridelands.5.b
+		ai_chance = { factor = 1}
+		set_politics= {
+ ruling_party = democratic 
+elections_allowed = no 
+}
+start_civil_war= {
+ ideology = fascism
+size = 0.5 
+}
+set_country_flag= Civil_War
+	}
+}

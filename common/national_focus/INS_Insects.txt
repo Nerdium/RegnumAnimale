@@ -1,0 +1,122 @@
+focus_tree = {
+	id = Insects
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = INS
+		}
+	}
+	#Focus for The Insect Compromise
+	focus = {
+		id = INS_theinsectcompromise
+		icon = GFX_goal_tripartite_pact
+		x = 3
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = INS_foundthestate }
+		mutually_exclusive = { focus = INS_antsupremecy }
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			add_timed_idea= { 
+idea = democratic_influence 
+days = 50 
+}
+add_timed_idea= { 
+idea = communist_influence
+days = 50 
+}
+add_timed_idea= { 
+idea = CAN_great_depression_2 
+days = 50 
+}
+		}
+	}
+
+	#Focus for Ant Supremecy
+	focus = {
+		id = INS_antsupremecy
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = INS_foundthestate }
+		mutually_exclusive = { focus = INS_theinsectcompromise }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea= { 
+idea = fascist_influence 
+days = 50 
+}
+add_timed_idea= { 
+idea = neutrality_influence
+days = 50 
+}
+		}
+	}
+
+	#Focus for Found The State
+	focus = {
+		id = INS_foundthestate
+		icon = GFX_focus_generic_self_management
+		x = 6
+		y = 0
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			add_timed_idea= { 
+idea = ENG_steady_as_she_goes_idea 
+days = 50 
+}
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+#End of focuses 
+ }

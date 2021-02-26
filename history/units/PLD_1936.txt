@@ -1,0 +1,89 @@
+#division_template = {
+#	name = "Blueskirt Division"
+#
+#	regiments = {
+#		infantry = { x = 0 y = 0 }
+#		infantry = { x = 0 y = 1 }
+#		infantry = { x = 0 y = 2 }
+#		infantry = { x = 1 y = 0 }
+#		infantry = { x = 1 y = 1 }
+#		infantry = { x = 1 y = 2 }
+#		infantry = { x = 2 y = 0 }
+#		infantry = { x = 2 y = 1 }
+#		infantry = { x = 2 y = 2 }
+#		infantry = { x = 3 y = 0 }
+#		infantry = { x = 3 y = 1 }
+#	}
+#}
+#
+#units = {
+#	division = {	
+#		name = "1st Blueskirt Division"
+#		location = 12911 #Priderock
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "2nd Blueskirt Division"
+#		location = 12911 #Priderock
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "3rd Blueskirt Division"
+#		location = 12911 #Priderock
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "4th Blueskirt Division"
+#		location = 12911 #Priderock
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "5th Blueskirt Division"
+#		location = 5221 #Somewhere in Malawi
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "6th Blueskirt Division"
+#		location = 5221 #Somewhere in Malawi
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "7th Blueskirt Division"
+#		location = 2217 #Somewhere in Mozambique
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "8th Blueskirt Division"
+#		location = 2217 #Somewhere in Mozambique
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "9th Blueskirt Division"
+#		location = 5079 #Somewhere in Kenya
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "10th Blueskirt Division"
+#		location = 5079 #Somewhere in Kenya
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "11th Blueskirt Division"
+#		location = 6020 #Somewhere else in Kenya
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "12th Blueskirt Division"
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "13th Blueskirt Division"
+#		location = 8182 #Somewhere in Tanzania
+#		division_template = "Blueskirt Division"
+#	}
+#	division = {	
+#		name = "14th Blueskirt Division"
+#		location = 8182 #Somewhere in Tanzania
+#		division_template = "Blueskirt Division"
+#	}
+#}
