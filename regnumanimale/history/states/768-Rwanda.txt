@@ -1,26 +1,27 @@
-#STILL NEEDS TO BE UPDATE
 
 state = {
 	id = 768
-	name = "STATE_768" # Rwanda
+	name = "STATE_768"
 	
-	state_category = pastoral
+	manpower = 0
+	resources = {
+
+	}
+
+	state_category = rural
+	provinces = {
+		9962
+	}
 
 	history = {
 		owner = PRL
 		add_core_of = PRL
-		victory_points = {
-			9962 1
-		}
+
 		buildings = {
-			infrastructure = 2
-
+			
 		}
+		
 	}
 
-	provinces = {
-		9962
-	}
-	manpower = 1716564
-	buildings_max_level_factor=1.000
+	
 }

@@ -1,27 +1,27 @@
-#STILL NEEDS TO BE UPDATED
 
 state = {
 	id = 774
 	name = "STATE_774"
+	
+	manpower = 0
+	resources = {
+
+	}
+
+	state_category = rural
+	provinces = {
+		1473 1883 1993 2081 3123 3181 4897 4978 7919 9152 13138 13211 
+	}
 
 	history = {
 		owner = RNE
 		add_core_of = RNE
 
-		victory_points = {
-			2081 1
-		}
 		buildings = {
-			infrastructure = 2
 
 		}
-
+		
 	}
 
-	provinces = {
-		1473 1883 1993 2081 3123 3181 4897 4978 7919 9152 13138 13211 
-	}
-	manpower = 1442456
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	
 }
