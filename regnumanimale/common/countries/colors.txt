@@ -19,3 +19,10 @@ HYH = {
 	color = rgb { 150 135 80 }
 	color_ui = rgb { 150 135 80 }
 }
+
+#Rhino Empire
+RNE = {
+	#Purple Blue
+	color = rgb { 55 60 200 }
+	color_ui = rgb { 55 60 200 }
+}
