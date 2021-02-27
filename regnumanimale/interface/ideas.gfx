@@ -1,0 +1,6 @@
+spriteTypes = {
+  spriteType = {
+      name = "GFX_idea_lion_species"
+      texturefile = "gfx/interface/ideas/lion.dds"
+  }
+}
