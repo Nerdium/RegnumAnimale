@@ -6,6 +6,7 @@ tags = {
 name = "Regnum Animale"
 picture = "thumbnail.png"
 
+replace_path="events"
 
 supported_version= "1.10.*"
 path= "mod/regnumanimale/"
