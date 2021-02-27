@@ -76,7 +76,7 @@ category = electronics
 		available = {
 			has_country_flag= PRL_king_is_dead
 		}
-		complete_tooltip = {
+		completion_reward = {
 			custom_effect_tooltip = PRL_imperial_tragedy
 		}
 	}
