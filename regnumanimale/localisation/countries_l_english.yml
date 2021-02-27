@@ -1,0 +1,35 @@
+﻿l_english:
+ #Pridelands
+ PRL:0 "Pridelands"
+ PRL_DEF:0 "The Pridelands"
+ PRL_ADJ:0 "Prideland"
+
+ #Gorilla Territories
+ GRT:0 "Gorilla Territories"
+ GRT_DEF:0 "The Gorilla Territories"
+ GRT_ADJ:0 "Gorillan"
+
+ #Rhino Empire
+ RNE:0 "Rhino Empire"
+ RNE_DEF:0 "The Rhino Empire"
+ RNE_ADJ:0 "Rhino"
+
+ #Hyena Highlands
+ HYH:0 "Hyena Highlands"
+ HYH_DEF:0 "The Hyena Highlands"
+ HYH_ADJ:0 "Hyena"
+
+ #Wastelands
+ WSL:0 "Wastelands"
+ WSL_DEF:0 "The Wastelands"
+ WSL_ADJ:0 "Wastelandian"
+
+ #African Elephants
+ AEL:0 "African Elephants"
+ AEL_DEF:0 "The African Elephants"
+ AEL_ADJ:0 "Elephant"
+
+ #Wildlands
+ WLD:0 "Wildlands"
+ WLD_DEF:0 "The Wildlands"
+ WLD_ADJ:0 "Wildlandian"
