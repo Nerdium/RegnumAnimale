@@ -1,31 +1,27 @@
-#STILL NEEDS TO UPDATED
 
 state = {
 	id = 772
-	name ="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
+	name = "STATE_772"
 	
-	state_category = pastoral
+	manpower = 0
 	resources = {
-		rubber = 1
+
 	}
+
+	state_category = rural
+	provinces = {
+		2192 3109 6008 8193 12975 
+	}
+
 	history = {
 		owner = GRT
 		add_core_of = GRT
 
-		victory_points = {
-			8193 2
-		}
 		buildings = {
-			infrastructure = 3
-			12975 = {
-				naval_base = 1
-			}
+
 		}
-
+		
 	}
 
-	provinces = {
-		2192 3109 6008 8193 12975 
-	}
+	
 }
