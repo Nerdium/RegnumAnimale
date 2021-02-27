@@ -1,0 +1,7 @@
+
+#Pink Maroon
+color = rgb { 85 0 30 }
+
+#To be changed to Elephants
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d

@@ -14,8 +14,8 @@ state = {
 	}
 
 	history = {
-		owner = RNE
-		add_core_of = RNE
+		owner = WSL
+		add_core_of = WSL
 
 		buildings = {
 

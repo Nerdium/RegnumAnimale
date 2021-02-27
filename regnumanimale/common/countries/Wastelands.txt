@@ -1,0 +1,7 @@
+
+#Dark Grey
+color = rgb { 75 75 75 }
+
+#To be changed to Elephants
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
