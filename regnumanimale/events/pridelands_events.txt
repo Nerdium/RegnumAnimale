@@ -1,11 +1,11 @@
-add_namespace = animalkingdomsun
+add_namespace = pridelands
 
 ##Event: The Realm of the Pridelands
 country_event = {
 	id = pridelands.1
 	title = pridelands.1.title
 	desc = pridelands.1.desc
-	picture = GFX_report_event_yugoslavian_split
+	picture = GFX_pridelands_map
 	fire_only_once = yes
 	trigger = {
 		tag= PRL

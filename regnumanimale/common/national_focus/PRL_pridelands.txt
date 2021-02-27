@@ -7,11 +7,96 @@ focus_tree = {
 			tag = PRL
 		}
 	}
+	#Focus for Foreign Trade
+	focus = {
+		id = PRL_foreign_trade
+		icon = GFX_focus_generic_treaty
+		x = 56
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_lyonosphere }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appoint Floena
+	focus = {
+		id = PRL_appoint_floena
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_council_of_lionesses }
+		mutually_exclusive = { focus = PRL_appoint_ridya }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanPeople
+		}
+	}
+
+	#Focus for Lyonosphere
+	focus = {
+		id = PRL_lyonosphere
+		icon = GFX_focus_eng_imperial_federation
+		x = 47
+		y = 0
+		cost = 7
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= PRL_sucession_solved
+has_country_flag= PRL_civilwar_averted
+has_country_flag= PRL_civilwar_over
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_diplomacy
+		}
+	}
+
+	#Focus for EndDiplo
+	focus = {
+		id = PRL_enddiplo
+		icon = GFX_goal_unknown
+		x = 56
+		y = 12
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_foreign_trade }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appoint Ridya
+	focus = {
+		id = PRL_appoint_ridya
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_council_of_lionesses }
+		mutually_exclusive = { focus = PRL_appoint_floena }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanScar
+		}
+	}
+
 	#Focus for The New Agenda
 	focus = {
 		id = PRL_the_new_agenda
 		icon = GFX_focus_generic_treaty
-		x = 18
+		x = 19
 		y = 1
 		cost = 1
 		available_if_capitulated = yes
@@ -25,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = PRL_the_council_of_lionesses
 		icon = GFX_goal_tripartite_pact
-		x = 18
+		x = 19
 		y = 2
 		cost = 7
 		available_if_capitulated = yes
@@ -42,7 +127,7 @@ focus_tree = {
 	focus = {
 		id = PRL_expand_the_liama
 		icon = GFX_goal_generic_scientific_exchange
-		x = 23
+		x = 24
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -63,8 +148,8 @@ category = electronics
 	focus = {
 		id = PRL_the_imperial_tragedy
 		icon = GFX_focus_rom_abdicate
-		x = 4
-		y = 2
+		x = 5
+		y = 0
 		cost = 1
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -85,7 +170,7 @@ category = electronics
 	focus = {
 		id = PRL_the_next_big_step
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 13
+		x = 14
 		y = 2
 		cost = 7
 		available_if_capitulated = yes
@@ -117,7 +202,7 @@ category = electronics
 	focus = {
 		id = PRL_the_festival_of_sikuya_kuuzaliwahpuya
 		icon = GFX_focus_generic_royal_wedding
-		x = 18
+		x = 19
 		y = 0
 		cost = 1
 		available_if_capitulated = yes
