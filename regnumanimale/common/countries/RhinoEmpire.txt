@@ -1,7 +1,7 @@
 
-#Light Brown
-color = rgb { 150 135 80 }
+#Purple Blue
+color = rgb { 55 60 200 }
 
-#To be changed to Hyenas
+#To be changed to Rhinos
 graphical_culture = commonwealth_gfx
 graphical_culture_2d = commonwealth_2d

@@ -1,0 +1,34 @@
+#STILL NEEDS TO BE UPDATED
+
+capital = 295
+
+oob = "GRT_1936"
+
+set_research_slots = 3
+set_stability = 1.0
+set_war_support = 1.0
+set_convoys = 100
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 12
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Dumb Gorilla Guy"
+	desc = "POLITICS_GORILLA_LEADER_DESC"
+	picture = "Portrait_Gorilla_Leader.dds"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {}
+}
