@@ -1,0 +1,7 @@
+
+#Light Forest Green
+color = rgb { 95 135 90 }
+
+#To be changed to Boars
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d

@@ -26,3 +26,24 @@ RNE = {
 	color = rgb { 55 60 200 }
 	color_ui = rgb { 55 60 200 }
 }
+
+#Wildlands
+WLD = {
+	#Light Forest Green
+	color = rgb { 95 135 90 }
+	color_ui = rgb { 95 135 90 }
+}
+
+#Wastelands
+WSL = {
+	#Dark Grey
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
+}
+
+#African Elephants
+AEL = {
+	#Pink Maroon
+	color = rgb { 85 0 30 }
+	color_ui = rgb { 85 0 30 }
+}
