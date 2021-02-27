@@ -5,6 +5,7 @@ ideas = {
 		
 		
 		lion_species = {
+			picture = lion_species
 			allowed = {
 				has_idea = lion_species
 			}
