@@ -1,0 +1,7 @@
+
+#Golden Yellow
+color = rgb { 255 223 0 }
+
+#To be changed to Lions
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
