@@ -1,8 +1,8 @@
 #STILL NEEDS TO BE UPDATED
 
-capital = 271
+capital = 295
 
-oob = "HYH_1936"
+oob = "GRT_1936"
 
 set_research_slots = 3
 set_stability = 1.0
@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Dumb Hyena Guy"
-	desc = "POLITICS_HYENA_LEADER_DESC"
-	picture = "Portrait_Hyena_Leader.dds"
+	name = "Dumb Gorilla Guy"
+	desc = "POLITICS_GORILLA_LEADER_DESC"
+	picture = "Portrait_Gorilla_Leader.dds"
 	expire = "1950.1.1"
 	ideology = conservatism
 	traits = {}
