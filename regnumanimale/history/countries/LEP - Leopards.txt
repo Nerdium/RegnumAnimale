@@ -1,8 +1,8 @@
 #STILL NEEDS TO BE UPDATED
 
-capital = 546
+capital = 268
 
-oob = "PRL_1936"
+oob = "LEP_1936"
 
 set_research_slots = 3
 set_stability = 1.0
@@ -14,23 +14,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 12
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	democratic = 100
 }
 
 create_country_leader = {
-	name = "Rick Astley"
-	desc = "POLITICS_MUFASA_DESC"
-	picture = "Portrait_Mufasa.dds"
+	name = "Dumb Leopard Guy"
+	desc = "POLITICS_LEOPARD_LEADER_DESC"
+	picture = "Portrait_LEOPARD_Leader.dds"
 	expire = "1950.1.1"
-	ideology = nazism
-	traits = {
-		dictator
-	}
+	ideology = conservatism
+	traits = {}
 }
