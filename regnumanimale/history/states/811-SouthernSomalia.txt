@@ -1,0 +1,27 @@
+
+state = {
+	id = 811
+	name = "STATE_811"
+	
+	manpower = 0
+	resources = {
+
+	}
+
+	state_category = rural
+	provinces = {
+		2063 8164 10928 11014 12941
+	}
+
+	history = {
+		owner = PRL
+		add_core_of = PRL
+
+		buildings = {
+
+		}
+		
+	}
+
+	
+}
