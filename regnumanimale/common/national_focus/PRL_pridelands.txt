@@ -4,13 +4,13 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = PLD
+			tag = PRL
 		}
 	}
 	#Focus for The Imperial New Year
 	focus = {
-		id = PLD_the_imperial_new_year
-		icon = GFX_focus_smiling_buddha
+		id = PRL_the_imperial_new_year
+		icon = GFX_goal_unknown
 		x = 14
 		y = 1
 		cost = 2
