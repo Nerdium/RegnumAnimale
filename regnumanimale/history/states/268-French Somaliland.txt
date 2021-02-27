@@ -1,0 +1,27 @@
+
+state = {
+	id = 268
+	name = "STATE_268"
+	
+	manpower = 0
+	resources = {
+
+	}
+
+	state_category = rural
+	provinces = {
+		4985 8124
+	}
+
+	history = {
+		owner = LEP
+		add_core_of = LEP
+
+		buildings = {
+
+		}
+		
+	}
+
+	
+}

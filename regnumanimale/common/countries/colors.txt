@@ -47,3 +47,12 @@ AEL = {
 	color = rgb { 85 0 30 }
 	color_ui = rgb { 85 0 30 }
 }
+
+#Leopards
+LEP = {
+	#Lemon Lime
+	color = rgb { 220 255 105 }
+	color_ui = rgb { 220 255 105 }
+}
+
+
