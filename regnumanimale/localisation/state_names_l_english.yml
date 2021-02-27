@@ -806,8 +806,9 @@
  STATE_805:0 "Northern Epirus"
  STATE_806:0 "Pyrénées-Atlantiques"
 
-
-#New states
-STATE_807:0 "Wastelands"
-STATE_808:0 "African Elephants"
-STATE_809:0 "Wildlands"
+ #New states
+ STATE_807:0 "Wastelands"
+ STATE_808:0 "African Elephants"
+ STATE_809:0 "Wildlands"
+ STATE_810:0 "Western Eritrea"
+ STATE_809:0 "Southern Somalia"
