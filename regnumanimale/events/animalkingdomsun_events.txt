@@ -1,39 +1,24 @@
 add_namespace = animalkingdomsun
 
-##Event: The Realm of the Pridelands
+##Event: The 3413th Sikuya Kuzaliwaupya
 country_event = {
 	id = animalkingdomsun.1
 	title = animalkingdomsun.1.title
 	desc = animalkingdomsun.1.desc
-	picture = GFX_report_event_yugoslavian_split
-	fire_only_once = yes
-	mean_time_to_happen = {
-		days = 1
-	}
-	option = {
-		name = animalkingdomsun.1.a
-		ai_chance = { factor = 1}
-	}
-}
-##Event: The 3413th Sikuya Kuzaliwaupya
-country_event = {
-	id = animalkingdomsun.2
-	title = animalkingdomsun.2.title
-	desc = animalkingdomsun.2.desc
 	picture = GFX_report_event_king_speech
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = animalkingdomsun.2.a
+		name = animalkingdomsun.1.a
 		ai_chance = { factor = 1}
 		add_political_power= 250
 	}
 }
 ##Event: The Imperial Tragedy
 country_event = {
-	id = animalkingdomsun.3
-	title = animalkingdomsun.3.title
-	desc = animalkingdomsun.3.desc
+	id = animalkingdomsun.2
+	title = animalkingdomsun.2.title
+	desc = animalkingdomsun.2.desc
 	picture = GFX_news_event_nuke
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -46,7 +31,7 @@ date > 1937.1.1
 		days = 180
 	}
 	option = {
-		name = animalkingdomsun.3.a
+		name = animalkingdomsun.2.a
 		ai_chance = { factor = 1}
 		add_political_power= -250
 set_country_flag= PRL_king_is_dead

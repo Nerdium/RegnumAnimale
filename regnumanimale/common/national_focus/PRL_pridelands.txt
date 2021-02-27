@@ -21,13 +21,107 @@ focus_tree = {
 		}
 	}
 
+	#Focus for Appoint Wagya
+	focus = {
+		id = PRL_appoint_wagya
+		icon = GFX_goal_demand_sudetenland
+		x = 19
+		y = 5
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRL_appoint_changxi 
+			focus = PRL_appoint_pesaya 
+		}
+		mutually_exclusive = { focus = PRL_appoint_rafikaya }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanScar
+		}
+	}
+
+	#Focus for Roaring Street School of Economics
+	focus = {
+		id = PRL_roaring_street_school_of_economics
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_roaring_street }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Chumabelt
+	focus = {
+		id = PRL_the_chumabelt
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 15
+		y = 3
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_next_big_step }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appoint Pesaya
+	focus = {
+		id = PRL_appoint_pesaya
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 21
+		y = 4
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRL_appoint_floena 
+			focus = PRL_appoint_ridya 
+		}
+		mutually_exclusive = { 
+			focus = PRL_appoint_changxi 
+			focus = PRL_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanPeople
+		}
+	}
+
+	#Focus for Appoint Changxi
+	focus = {
+		id = PRL_appoint_changxi
+		icon = GFX_focus_usa_voter_registration_act
+		x = 19
+		y = 4
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRL_appoint_ridya 
+			focus = PRL_appoint_floena 
+		}
+		mutually_exclusive = { focus = PRL_appoint_pesaya }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanScar
+		}
+	}
+
 	#Focus for Appoint Floena
 	focus = {
 		id = PRL_appoint_floena
-		icon = GFX_goal_unknown
-		x = 20
+		icon = GFX_goal_generic_improve_relations
+		x = 21
 		y = 3
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = PRL_the_council_of_lionesses }
 		mutually_exclusive = { focus = PRL_appoint_ridya }
@@ -77,8 +171,8 @@ has_country_flag= PRL_civilwar_over
 	#Focus for Appoint Ridya
 	focus = {
 		id = PRL_appoint_ridya
-		icon = GFX_goal_unknown
-		x = 18
+		icon = GFX_goal_generic_dangerous_deal
+		x = 19
 		y = 3
 		cost = 7
 		available_if_capitulated = yes
@@ -92,11 +186,35 @@ has_country_flag= PRL_civilwar_over
 		}
 	}
 
+	#Focus for Appoint Rafikaya
+	focus = {
+		id = PRL_appoint_rafikaya
+		icon = GFX_focus_smiling_buddha
+		x = 21
+		y = 5
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRL_appoint_pesaya 
+			focus = PRL_appoint_changxi 
+		}
+		mutually_exclusive = { 
+			focus = PRL_appoint_wagya 
+			focus = PRL_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_leanPeople
+		}
+	}
+
 	#Focus for The New Agenda
 	focus = {
 		id = PRL_the_new_agenda
 		icon = GFX_focus_generic_treaty
-		x = 19
+		x = 20
 		y = 1
 		cost = 1
 		available_if_capitulated = yes
@@ -109,8 +227,8 @@ has_country_flag= PRL_civilwar_over
 	#Focus for The Council of Lionesses
 	focus = {
 		id = PRL_the_council_of_lionesses
-		icon = GFX_goal_tripartite_pact
-		x = 19
+		icon = GFX_goal_generic_neutrality_focus
+		x = 20
 		y = 2
 		cost = 7
 		available_if_capitulated = yes
@@ -119,7 +237,8 @@ has_country_flag= PRL_civilwar_over
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power= 50
+			custom_effect_tooltip = PRL_CouncilAppoint
+add_political_power= 50
 		}
 	}
 
@@ -127,7 +246,7 @@ has_country_flag= PRL_civilwar_over
 	focus = {
 		id = PRL_expand_the_liama
 		icon = GFX_goal_generic_scientific_exchange
-		x = 24
+		x = 25
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -148,7 +267,7 @@ category = electronics
 	focus = {
 		id = PRL_the_imperial_tragedy
 		icon = GFX_focus_rom_abdicate
-		x = 5
+		x = 4
 		y = 0
 		cost = 1
 		available_if_capitulated = yes
@@ -202,7 +321,7 @@ category = electronics
 	focus = {
 		id = PRL_the_festival_of_sikuya_kuuzaliwahpuya
 		icon = GFX_focus_generic_royal_wedding
-		x = 19
+		x = 20
 		y = 0
 		cost = 1
 		available_if_capitulated = yes
@@ -214,6 +333,20 @@ category = electronics
 days = 1 
 id = animalkingdomsun.2 
 }
+		}
+	}
+
+	#Focus for Roaring Street
+	focus = {
+		id = PRL_roaring_street
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_next_big_step }
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
