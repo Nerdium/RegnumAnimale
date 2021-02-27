@@ -76,6 +76,9 @@ category = electronics
 		available = {
 			has_country_flag= PRL_king_is_dead
 		}
+		complete_tooltip = {
+			custom_effect_tooltip = PRL_imperial_tragedy
+		}
 	}
 
 	#Focus for The Next Big Step
@@ -106,9 +109,9 @@ category = electronics
  level = 4
  instant_build = yes
  }
+}
 		}
 	}
-} #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
 
 	#Focus for The Festival of Sikuya Kuzaliwaupya
 	focus = {
