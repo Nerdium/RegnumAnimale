@@ -7,16 +7,19 @@ focus_tree = {
 			tag = PLD
 		}
 	}
-	#Focus for Did I do it?
+	#Focus for The Imperial New Year
 	focus = {
-		id = PLD_did_i_do_it
-		icon = GFX_focus_smiling_buddha
-		x = 15
+		id = PLD_the_imperial_new_year
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 14
 		y = 1
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150
 		}
 	}
 

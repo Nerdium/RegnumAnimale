@@ -1,0 +1,20 @@
+add_namespace = animalkingdomsun
+
+##Event: The Realm of the Pridelands
+country_event = {
+	id = animalkingdomsun.1
+	title = animalkingdomsun.1.title
+	desc = animalkingdomsun.1.desc
+	picture = GFX_the_realm_of_the_pridelands-83959
+	fire_only_once = yes
+	trigger = {
+		date > 1936.1.1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = animalkingdomsun.1.a
+		ai_chance = { factor = 1}
+	}
+}
