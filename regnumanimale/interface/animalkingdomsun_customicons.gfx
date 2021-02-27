@@ -1,9 +1,3 @@
 spriteTypes = { 
-	##Icon For: The Realm of the Pridelands
-	SpriteType = { 
-		name = "the_realm_of_the_pridelands-83959"
-		texturefile = "gfx/interface/event_gfx/the_realm_of_the_pridelands-83959.dds"
-	}
-
  
  }
