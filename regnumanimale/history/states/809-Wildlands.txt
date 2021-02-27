@@ -1,7 +1,7 @@
 
 state = {
-	id = 549
-	name = "STATE_549"
+	id = 809
+	name = "STATE_809"
 	
 	manpower = 0
 	resources = {
@@ -10,7 +10,7 @@ state = {
 
 	state_category = rural
 	provinces = {
-		1914 1953 1960 2016 4033 4918 5060 8052 8084 10739 10764 10795 10827 10851 10857 10877 10908 12744 12800 12887
+		2034 2154 12783
 	}
 
 	history = {
@@ -18,7 +18,7 @@ state = {
 		add_core_of = RNE
 
 		buildings = {
-			
+
 		}
 		
 	}
