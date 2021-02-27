@@ -15,7 +15,7 @@ focus_tree = {
 		y = 1
 		cost = 1
 		available_if_capitulated = yes
-		prerequisite = { focus = PRL_the_festival_of_sikuya_kuzaliwaupya }
+		prerequisite = { focus = PRL_the_festival_of_sikuya_kuuzaliwahpuya }
 		ai_will_do = {
 			factor = 1
 		}
@@ -113,9 +113,9 @@ category = electronics
 		}
 	}
 
-	#Focus for The Festival of Sikuya Kuzaliwaupya
+	#Focus for The Festival of Sikuya Kuuzaliwahpuya
 	focus = {
-		id = PRL_the_festival_of_sikuya_kuzaliwaupya
+		id = PRL_the_festival_of_sikuya_kuuzaliwahpuya
 		icon = GFX_focus_generic_royal_wedding
 		x = 18
 		y = 0
