@@ -1,0 +1,7 @@
+
+#Lemon Lime
+color = rgb { 220 255 105 }
+
+#To be changed to Leopards
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
