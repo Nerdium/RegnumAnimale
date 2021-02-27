@@ -7,10 +7,6 @@ country_event = {
 	desc = animalkingdomsun.1.desc
 	picture = GFX_report_event_yugoslavian_split
 	fire_only_once = yes
-	trigger = {
-		tag= PRL
-date > 1936.1.1
-	}
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -31,5 +27,28 @@ country_event = {
 		name = animalkingdomsun.2.a
 		ai_chance = { factor = 1}
 		add_political_power= 250
+	}
+}
+##Event: The Imperial Tragedy
+country_event = {
+	id = animalkingdomsun.3
+	title = animalkingdomsun.3.title
+	desc = animalkingdomsun.3.desc
+	picture = GFX_news_event_nuke
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag= PRL
+date > 1937.1.1
+	}
+	mean_time_to_happen = {
+		days = 180
+	}
+	option = {
+		name = animalkingdomsun.3.a
+		ai_chance = { factor = 1}
+		add_political_power= -250
+set_country_flag= PRL_king_is_dead
 	}
 }
