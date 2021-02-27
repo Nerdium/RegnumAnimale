@@ -1,7 +1,7 @@
 
-#Golden Yellow
-color = rgb { 255 223 0 }
+#Light Brown
+color = rgb { 150 135 80 }
 
-#To be changed to Lions
+#To be changed to Hyenas
 graphical_culture = commonwealth_gfx
 graphical_culture_2d = commonwealth_2d
