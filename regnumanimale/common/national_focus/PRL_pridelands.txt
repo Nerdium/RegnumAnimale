@@ -10,8 +10,8 @@ focus_tree = {
 	#Focus for The New Agenda
 	focus = {
 		id = PRL_the_new_agenda
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 14
+		icon = GFX_focus_generic_treaty
+		x = 18
 		y = 1
 		cost = 1
 		available_if_capitulated = yes
@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = PRL_affairs_of_state
 		icon = GFX_goal_tripartite_pact
-		x = 14
+		x = 18
 		y = 2
 		cost = 7
 		available_if_capitulated = yes
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = PRL_expand_the_liama
 		icon = GFX_goal_generic_scientific_exchange
-		x = 18
+		x = 23
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -59,11 +59,30 @@ category = electronics
 		}
 	}
 
+	#Focus for The Imperial Tragedy
+	focus = {
+		id = PRL_the_imperial_tragedy
+		icon = GFX_focus_rom_abdicate
+		x = 4
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			has_country_flag= PRL_king_is_dead
+		}
+		available = {
+			has_country_flag= PRL_king_is_dead
+		}
+	}
+
 	#Focus for The Next Step
 	focus = {
 		id = PRL_the_next_step
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 10
+		x = 13
 		y = 2
 		cost = 7
 		available_if_capitulated = yes
@@ -94,8 +113,8 @@ category = electronics
 	#Focus for The Festival of Sikuya Kuzaliwaupya
 	focus = {
 		id = PRL_the_festival_of_sikuya_kuzaliwaupya
-		icon = GFX_goal_unknown
-		x = 14
+		icon = GFX_focus_generic_royal_wedding
+		x = 18
 		y = 0
 		cost = 1
 		available_if_capitulated = yes
