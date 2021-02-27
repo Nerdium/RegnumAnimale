@@ -2,7 +2,9 @@
 
 #Pridelands
 PRL_king_is_dead:0 "§YThe King is §Rdead§Y.§T\n"
-
+PRL_sucession_solved:0 "Sucession §CSolved§T.\n"
+PRL_civilwar_averted:0 "Civil War §CAverted!T.\n"
+PRL_civilwar_over:0 "Civil War §ROver§T.\n"
 
 
 #Hyenas

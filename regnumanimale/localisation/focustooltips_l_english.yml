@@ -2,7 +2,9 @@
 
 #Pridelands
 PRL_imperial_tragedy:0 "Depending on which §YLionesses§T you have appointed to the §GCouncil§T, the outcome of the crisis will either weigh in favor of the §RKing's Brother§T, or the §OPeople's Regency Council.\n§T"
+PRL_diplomacy:0 "§GWe will reassert our diplomatic hegemony worldwide. The ways other states respond to us may vary depending on how the last few years have gone for us...§T\n"
 
-
+PRL_leanScar:0 "This will cause our Government to §Llean authoritarian§T.\n"
+PRL_leanPeople:0 "This will cause our Government to §Rlean populist§T.\n"
 
 #Hyenas
