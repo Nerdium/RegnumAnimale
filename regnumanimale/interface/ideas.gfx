@@ -1,6 +1,37 @@
 spriteTypes = {
+
   spriteType = {
       name = "GFX_idea_lion_species"
       texturefile = "gfx/interface/ideas/lion.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_elephant_species"
+      texturefile = "gfx/interface/ideas/elephant.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_gorilla_species"
+      texturefile = "gfx/interface/ideas/gorilla.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_hyena_species"
+      texturefile = "gfx/interface/ideas/hyena.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_leopard_species"
+      texturefile = "gfx/interface/ideas/leopard.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_rhino_species"
+      texturefile = "gfx/interface/ideas/rhino.dds"
+  }
+
+  spriteType = {
+      name = "GFX_idea_boar_species"
+      texturefile = "gfx/interface/ideas/boar.dds"
   }
 }
