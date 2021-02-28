@@ -186,6 +186,51 @@ has_country_flag= PRL_civilwar_over
 		}
 	}
 
+	#Focus for Bolster the Chumabelt
+	focus = {
+		id = PRL_bolster_the_chumabelt
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 15
+		y = 4
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_chumabelt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Regency Council
+	focus = {
+		id = PRL_the_regency_council
+		icon = GFX_focus_rom_handle_king
+		x = 6
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_imperial_tragedy }
+		mutually_exclusive = { focus = PRL_empower_kitambao }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_regency1
+
+set_politics= {
+ ruling_party = neutrality 
+elections_allowed = no 
+}
+  add_popularity= { 
+ideology = neutrality 
+popularity = 0.5 
+}
+  add_popularity= { 
+ideology = fascism 
+popularity = 0.25 
+}
+		}
+	}
+
 	#Focus for Appoint Rafikaya
 	focus = {
 		id = PRL_appoint_rafikaya
@@ -216,7 +261,7 @@ has_country_flag= PRL_civilwar_over
 		icon = GFX_focus_generic_treaty
 		x = 20
 		y = 1
-		cost = 1
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = PRL_the_festival_of_sikuya_kuuzaliwahpuya }
 		ai_will_do = {
@@ -342,11 +387,42 @@ id = animalkingdomsun.2
 		icon = GFX_focus_spa_the_spanish_miracle
 		x = 13
 		y = 3
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = PRL_the_next_big_step }
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	#Focus for Empower Kitambao
+	focus = {
+		id = PRL_empower_kitambao
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 2
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = PRL_the_imperial_tragedy }
+		mutually_exclusive = { focus = PRL_the_regency_council }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = PRL_kitambao1
+
+set_politics= {
+ ruling_party = fascism 
+elections_allowed = no 
+}
+  add_popularity= { 
+ideology = fascism
+popularity = 0.5 
+}
+  add_popularity= { 
+ideology = neutrality 
+popularity = 0.25 
+}
 		}
 	}
 
